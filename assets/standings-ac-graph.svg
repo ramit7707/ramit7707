@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 220" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="ac-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#06b6d4" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#06b6d4" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+  <rect width="460" height="220" rx="8" fill="#070b13" stroke="#1e293b" stroke-width="1"/>
+  
+  <text x="20" y="26" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#64748b" letter-spacing="1">ATCODER</text>
+  <text x="440" y="26" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#06b6d4">SR_18 • 836</text>
+  <circle cx="446" cy="23" r="3.5" fill="#06b6d4"/>
+
+  <line x1="40" y1="42" x2="440" y2="42" stroke="#151d2f" stroke-dasharray="3 3"/>
+  <line x1="40" y1="117.0" x2="440" y2="117.0" stroke="#151d2f" stroke-dasharray="3 3"/>
+  <line x1="40" y1="192" x2="440" y2="192" stroke="#1e293b"/>
+
+  <text x="32" y="45" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">900</text>
+  <text x="32" y="120.0" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">500</text>
+
+  <path d="M 40.0 174.4 L 97.1 147.9 L 154.3 124.9 L 211.4 110.8 L 268.6 96.7 L 325.7 84.4 L 382.9 72.0 L 440.0 62.1 L 440.0 192.0 L 40.0 192.0 Z" fill="url(#ac-fill)"/>
+  <path d="M 40.0 174.4 L 97.1 147.9 L 154.3 124.9 L 211.4 110.8 L 268.6 96.7 L 325.7 84.4 L 382.9 72.0 L 440.0 62.1" fill="none" stroke="#06b6d4" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="440.0" cy="62.1" r="3.5" fill="#06b6d4" stroke="#ffffff" stroke-width="1"/>
+
+  <text x="40" y="210" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">2025</text>
+  <text x="440" y="210" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">Current</text>
+</svg>

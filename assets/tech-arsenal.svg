@@ -1,0 +1,181 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 430" width="100%" height="100%" fill="none">
+  <defs>
+    <g id="gh-icon">
+      <path fill-rule="evenodd" clip-rule="evenodd" d="M9 0C4.02 0 0 4.02 0 9c0 3.98 2.58 7.35 6.15 8.54.45.08.62-.2.62-.43v-1.53c-2.51.55-3.04-1.21-3.04-1.21-.41-1.04-1-1.32-1-1.32-.82-.56.06-.55.06-.55.91.06 1.39.93 1.39.93.81 1.38 2.11.98 2.63.75.08-.58.31-.98.57-1.2-2-.23-4.1-1-4.1-4.45 0-.98.35-1.79.93-2.42-.09-.23-.4-1.15.09-2.39 0 0 .76-.24 2.48.92.72-.2 1.49-.3 2.25-.3s1.53.1 2.25.3c1.72-1.16 2.48-.92 2.48-.92.49 1.24.18 2.16.09 2.39.58.63.93 1.43.93 2.42 0 3.46-2.1 4.22-4.11 4.44.32.28.61.82.61 1.66v2.47c0 .24.16.52.62.43C15.42 16.35 18 12.98 18 9c0-4.98-4.02-9-9-9z" fill="#ffffff"/>
+    </g>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="940" height="430" rx="8" fill="#080c14" stroke="#1e293b" stroke-width="1.2"/>
+  
+  <!-- Outer Header -->
+  <text x="28" y="38" font-family="system-ui, -apple-system, sans-serif" font-size="20" font-weight="800" fill="#ffffff">Tech Arsenal</text>
+  <line x1="28" y1="55" x2="912" y2="55" stroke="#151d2f" stroke-width="1"/>
+
+  <!-- Divider Line Between Columns -->
+  <line x1="470" y1="75" x2="470" y2="400" stroke="#1e293b" stroke-width="0.8"/>
+
+  <!-- ==================== LEFT COLUMN ==================== -->
+  <g transform="translate(28, 75)">
+    <!-- 1. Languages -->
+    <g transform="translate(0, 0)">
+      <use href="#gh-icon" x="0" y="2" width="18" height="18"/>
+      <text x="26" y="16" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Languages</text>
+      
+      <!-- Badges -->
+      <g transform="translate(0, 30)">
+        <!-- C++ -->
+        <rect x="0" y="0" width="68" height="28" rx="4" fill="#00599C"/>
+        <circle cx="14" cy="14" r="6" fill="none" stroke="#ffffff" stroke-width="1.8"/>
+        <text x="14" y="18" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#ffffff">C</text>
+        <text x="38" y="19" text-anchor="middle" font-family="sans-serif" font-size="12" font-weight="900" fill="#ffffff">C++</text>
+
+        <!-- C -->
+        <rect x="76" y="0" width="48" height="28" rx="4" fill="#00599C"/>
+        <text x="100" y="19" text-anchor="middle" font-family="sans-serif" font-size="13" font-weight="900" fill="#ffffff">C</text>
+
+        <!-- PYTHON -->
+        <rect x="132" y="0" width="92" height="28" rx="4" fill="#3776AB"/>
+        <text x="178" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="800" fill="#ffffff" letter-spacing="0.5">PYTHON</text>
+
+        <!-- JAVASCRIPT -->
+        <rect x="232" y="0" width="118" height="28" rx="4" fill="#F7DF1E"/>
+        <rect x="238" y="6" width="16" height="16" rx="2" fill="#000000"/>
+        <text x="246" y="18" text-anchor="middle" font-family="sans-serif" font-size="10" font-weight="bold" fill="#F7DF1E">JS</text>
+        <text x="295" y="18" text-anchor="middle" font-family="sans-serif" font-size="10.5" font-weight="900" fill="#000000" letter-spacing="0.5">JAVASCRIPT</text>
+      </g>
+
+      <!-- Second row: SHELL SCRIPT -->
+      <g transform="translate(0, 66)">
+        <rect x="0" y="0" width="128" height="28" rx="4" fill="#121011" stroke="#334155" stroke-width="0.8"/>
+        <text x="16" y="18" font-family="monospace" font-size="12" font-weight="bold" fill="#ffffff">&gt;_</text>
+        <text x="72" y="18" text-anchor="middle" font-family="sans-serif" font-size="10.5" font-weight="800" fill="#ffffff" letter-spacing="0.5">SHELL SCRIPT</text>
+      </g>
+    </g>
+
+    <!-- 2. Frontend -->
+    <g transform="translate(0, 120)">
+      <use href="#gh-icon" x="0" y="2" width="18" height="18"/>
+      <text x="26" y="16" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Frontend</text>
+      
+      <g transform="translate(0, 30)">
+        <!-- HTML5 -->
+        <rect x="0" y="0" width="82" height="28" rx="4" fill="#E34F26"/>
+        <text x="41" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">HTML5</text>
+
+        <!-- CSS3 -->
+        <rect x="90" y="0" width="72" height="28" rx="4" fill="#1572B6"/>
+        <text x="126" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">CSS3</text>
+
+        <!-- EJS -->
+        <rect x="170" y="0" width="64" height="28" rx="4" fill="#B41454"/>
+        <text x="202" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">EJS</text>
+      </g>
+    </g>
+
+    <!-- 3. Backend & DB -->
+    <g transform="translate(0, 205)">
+      <use href="#gh-icon" x="0" y="2" width="18" height="18"/>
+      <text x="26" y="16" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Backend &amp; DB</text>
+      
+      <g transform="translate(0, 30)">
+        <!-- NODE.JS -->
+        <rect x="0" y="0" width="95" height="28" rx="4" fill="#339933"/>
+        <text x="47" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">NODE.JS</text>
+
+        <!-- EXPRESS.JS -->
+        <rect x="103" y="0" width="118" height="28" rx="4" fill="#000000" stroke="#334155" stroke-width="0.8"/>
+        <text x="162" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">EXPRESS.JS</text>
+
+        <!-- MONGODB -->
+        <rect x="229" y="0" width="105" height="28" rx="4" fill="#47A248"/>
+        <text x="281" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">MONGODB</text>
+      </g>
+
+      <g transform="translate(0, 66)">
+        <!-- MYSQL -->
+        <rect x="0" y="0" width="82" height="28" rx="4" fill="#4479A1"/>
+        <text x="41" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">MYSQL</text>
+      </g>
+    </g>
+  </g>
+
+  <!-- ==================== RIGHT COLUMN ==================== -->
+  <g transform="translate(495, 75)">
+    <!-- 1. AI / ML -->
+    <g transform="translate(0, 0)">
+      <use href="#gh-icon" x="0" y="2" width="18" height="18"/>
+      <text x="26" y="16" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff">AI / ML</text>
+      
+      <g transform="translate(0, 30)">
+        <!-- PYTORCH -->
+        <rect x="0" y="0" width="100" height="28" rx="4" fill="#EE4C2C"/>
+        <text x="50" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">PYTORCH</text>
+
+        <!-- OPENCV -->
+        <rect x="108" y="0" width="95" height="28" rx="4" fill="#5C3EE8"/>
+        <text x="155" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">OPENCV</text>
+
+        <!-- NUMPY -->
+        <rect x="211" y="0" width="86" height="28" rx="4" fill="#013243"/>
+        <text x="254" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">NUMPY</text>
+      </g>
+
+      <g transform="translate(0, 66)">
+        <!-- PANDAS -->
+        <rect x="0" y="0" width="92" height="28" rx="4" fill="#150458"/>
+        <text x="46" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">PANDAS</text>
+      </g>
+    </g>
+
+    <!-- 2. Tools & Platforms -->
+    <g transform="translate(0, 120)">
+      <use href="#gh-icon" x="0" y="2" width="18" height="18"/>
+      <text x="26" y="16" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Tools &amp; Platforms</text>
+      
+      <g transform="translate(0, 30)">
+        <!-- GIT -->
+        <rect x="0" y="0" width="65" height="28" rx="4" fill="#F05032"/>
+        <text x="32" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">GIT</text>
+
+        <!-- GITHUB -->
+        <rect x="73" y="0" width="90" height="28" rx="4" fill="#181717" stroke="#334155" stroke-width="0.8"/>
+        <text x="118" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">GITHUB</text>
+
+        <!-- LINUX -->
+        <rect x="171" y="0" width="80" height="28" rx="4" fill="#FCC624"/>
+        <text x="211" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#000000" letter-spacing="0.5">LINUX</text>
+
+        <!-- WEBSOCKET -->
+        <rect x="259" y="0" width="100" height="28" rx="4" fill="#010101" stroke="#334155" stroke-width="0.8"/>
+        <text x="309" y="18" text-anchor="middle" font-family="sans-serif" font-size="10.5" font-weight="900" fill="#ffffff" letter-spacing="0.5">WEBSOCKET</text>
+      </g>
+    </g>
+
+    <!-- 3. Concepts -->
+    <g transform="translate(0, 205)">
+      <use href="#gh-icon" x="0" y="2" width="18" height="18"/>
+      <text x="26" y="16" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#ffffff">Concepts</text>
+      
+      <g transform="translate(0, 30)">
+        <!-- OOP -->
+        <rect x="0" y="0" width="58" height="28" rx="4" fill="#4A154B"/>
+        <text x="29" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">OOP</text>
+
+        <!-- DSA -->
+        <rect x="66" y="0" width="68" height="28" rx="4" fill="#FF6B00"/>
+        <text x="100" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">DSA</text>
+
+        <!-- NETWORKING -->
+        <rect x="142" y="0" width="125" height="28" rx="4" fill="#007ACC"/>
+        <text x="204" y="18" text-anchor="middle" font-family="sans-serif" font-size="11" font-weight="900" fill="#ffffff" letter-spacing="0.5">NETWORKING</text>
+      </g>
+
+      <g transform="translate(0, 66)">
+        <!-- SYSTEM DESIGN -->
+        <rect x="0" y="0" width="125" height="28" rx="4" fill="#68A063"/>
+        <text x="62" y="18" text-anchor="middle" font-family="sans-serif" font-size="10.5" font-weight="900" fill="#ffffff" letter-spacing="0.5">SYSTEM DESIGN</text>
+      </g>
+    </g>
+  </g>
+</svg>

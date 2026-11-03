@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 120" width="100%" height="100%" fill="none">
+  <!-- Card 1: Codeforces -->
+  <g transform="translate(0, 0)">
+    <rect width="223" height="118" rx="8" fill="#070b13" stroke="#06b6d4" stroke-width="1.2"/>
+    <text x="111" y="24" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#06b6d4" letter-spacing="1">CODEFORCES</text>
+    <text x="111" y="38" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#64748b">_ramit_18</text>
+    <text x="111" y="82" text-anchor="middle" font-family="system-ui, sans-serif" font-size="34" font-weight="900" fill="#f8fafc">1357</text>
+    <text x="111" y="104" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#38bdf8">PUPIL</text>
+  </g>
+
+  <!-- Card 2: LeetCode -->
+  <g transform="translate(239, 0)">
+    <rect width="223" height="118" rx="8" fill="#070b13" stroke="#ec4899" stroke-width="1.2"/>
+    <text x="111" y="24" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#ec4899" letter-spacing="1">LEETCODE</text>
+    <text x="111" y="38" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#64748b">ramit018</text>
+    <text x="111" y="82" text-anchor="middle" font-family="system-ui, sans-serif" font-size="34" font-weight="900" fill="#f8fafc">1871</text>
+    <text x="111" y="104" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#f43f5e">KNIGHT (TOP ~6%)</text>
+  </g>
+
+  <!-- Card 3: CodeChef (2 Stars!) -->
+  <g transform="translate(478, 0)">
+    <rect width="223" height="118" rx="8" fill="#070b13" stroke="#f59e0b" stroke-width="1.2"/>
+    <text x="111" y="24" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#f59e0b" letter-spacing="1">CODECHEF</text>
+    <text x="111" y="38" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#64748b">ramit018</text>
+    <text x="111" y="82" text-anchor="middle" font-family="system-ui, sans-serif" font-size="34" font-weight="900" fill="#f8fafc">1582</text>
+    <text x="111" y="104" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#fbbf24">★★ (2-STAR)</text>
+  </g>
+
+  <!-- Card 4: AtCoder -->
+  <g transform="translate(717, 0)">
+    <rect width="223" height="118" rx="8" fill="#070b13" stroke="#14b8a6" stroke-width="1.2"/>
+    <text x="111" y="24" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#14b8a6" letter-spacing="1">ATCODER</text>
+    <text x="111" y="38" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" fill="#64748b">SR_18</text>
+    <text x="111" y="82" text-anchor="middle" font-family="system-ui, sans-serif" font-size="34" font-weight="900" fill="#f8fafc">836</text>
+    <text x="111" y="104" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9.5" font-weight="700" fill="#2dd4bf">BROWN</text>
+  </g>
+</svg>

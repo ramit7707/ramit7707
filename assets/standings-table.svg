@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 220" width="100%" height="100%" fill="none">
+  <rect width="460" height="220" rx="8" fill="#070b13" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Table Header -->
+  <g transform="translate(20, 22)" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#64748b">
+    <text x="0" y="0">Platform</text>
+    <text x="80" y="0">Handle</text>
+    <text x="200" y="0">Rank / Badge</text>
+  </g>
+  <line x1="20" y1="30" x2="440" y2="30" stroke="#1e293b" stroke-width="0.8"/>
+
+  <!-- Rows -->
+  <!-- CF -->
+  <g transform="translate(20, 48)" font-family="'JetBrains Mono', monospace" font-size="10.5">
+    <text x="0" y="0" font-weight="700" fill="#f8fafc">CF</text>
+    <text x="80" y="0" fill="#94a3b8">_ramit_18</text>
+    <text x="200" y="0" font-weight="600" fill="#38bdf8">Pupil</text>
+  </g>
+  <!-- LC -->
+  <g transform="translate(20, 68)" font-family="'JetBrains Mono', monospace" font-size="10.5">
+    <text x="0" y="0" font-weight="700" fill="#f8fafc">LC</text>
+    <text x="80" y="0" fill="#94a3b8">ramit018</text>
+    <text x="200" y="0" font-weight="600" fill="#ec4899">Knight</text>
+  </g>
+  <!-- CC -->
+  <g transform="translate(20, 88)" font-family="'JetBrains Mono', monospace" font-size="10.5">
+    <text x="0" y="0" font-weight="700" fill="#f8fafc">CC</text>
+    <text x="80" y="0" fill="#94a3b8">ramit018</text>
+    <text x="200" y="0" font-weight="600" fill="#f59e0b">**</text>
+  </g>
+  <!-- AC -->
+  <g transform="translate(20, 108)" font-family="'JetBrains Mono', monospace" font-size="10.5">
+    <text x="0" y="0" font-weight="700" fill="#f8fafc">AC</text>
+    <text x="80" y="0" fill="#94a3b8">SR_18</text>
+    <text x="200" y="0" font-weight="600" fill="#14b8a6">Brown</text>
+  </g>
+
+  <line x1="20" y1="118" x2="440" y2="118" stroke="#1e293b" stroke-width="0.8"/>
+
+  <!-- Total -->
+  <g transform="translate(20, 134)" font-family="'JetBrains Mono', monospace" font-size="11">
+    <text x="0" y="0" font-weight="700" fill="#f8fafc">Total</text>
+    <text x="200" y="0" font-weight="800" fill="#10b981">2000+ solved</text>
+  </g>
+
+  <!-- Techniques -->
+  <g transform="translate(20, 160)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="10.5" fill="#94a3b8">
+      <tspan font-weight="700" fill="#cbd5e1">Techniques:</tspan> Lazy seg-tree, DSU, Mo's, Digit DP, Tree DP +
+    </text>
+    <text x="0" y="16" font-family="system-ui, sans-serif" font-size="10.5" fill="#94a3b8">
+      rerooting, Bitmask DP, XOR basis, Dijkstra variants,
+    </text>
+    <text x="0" y="32" font-family="system-ui, sans-serif" font-size="10.5" fill="#94a3b8">
+      SCC/Bridges, Sprague-Grundy.
+    </text>
+  </g>
+</svg>

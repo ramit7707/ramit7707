@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 220" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="lc-fill" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#ec4899" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+  <rect width="460" height="220" rx="8" fill="#070b13" stroke="#1e293b" stroke-width="1"/>
+  
+  <text x="20" y="26" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="700" fill="#64748b" letter-spacing="1">LEETCODE CONTEST</text>
+  <text x="440" y="26" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="10" fill="#ec4899">ramit018 • 1871</text>
+  <circle cx="446" cy="23" r="3.5" fill="#ec4899"/>
+
+  <line x1="40" y1="42" x2="440" y2="42" stroke="#151d2f" stroke-dasharray="3 3"/>
+  <line x1="40" y1="117.0" x2="440" y2="117.0" stroke="#151d2f" stroke-dasharray="3 3"/>
+  <line x1="40" y1="192" x2="440" y2="192" stroke="#1e293b"/>
+
+  <text x="32" y="45" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">1900</text>
+  <text x="32" y="120.0" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">1700</text>
+
+  <path d="M 40.0 177.0 L 73.3 168.0 L 106.7 153.0 L 140.0 144.0 L 173.3 135.0 L 206.7 126.0 L 240.0 114.0 L 273.3 105.0 L 306.7 93.0 L 340.0 84.0 L 373.3 76.5 L 406.7 70.5 L 440.0 65.7 L 440.0 192.0 L 40.0 192.0 Z" fill="url(#lc-fill)"/>
+  <path d="M 40.0 177.0 L 73.3 168.0 L 106.7 153.0 L 140.0 144.0 L 173.3 135.0 L 206.7 126.0 L 240.0 114.0 L 273.3 105.0 L 306.7 93.0 L 340.0 84.0 L 373.3 76.5 L 406.7 70.5 L 440.0 65.7" fill="none" stroke="#ec4899" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <circle cx="440.0" cy="65.7" r="3.5" fill="#ec4899" stroke="#ffffff" stroke-width="1"/>
+
+  <text x="40" y="210" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">2024</text>
+  <text x="440" y="210" text-anchor="end" font-family="'JetBrains Mono', monospace" font-size="8.5" fill="#475569">Current</text>
+</svg>
