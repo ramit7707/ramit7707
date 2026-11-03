@@ -99,12 +99,14 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h4><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16" valign="middle"/> AI / ML</h4>
+      <h4><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16" valign="middle"/> AI</h4>
       <p>
-        <img src="https://img.shields.io/badge/PYTORCH-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
-        <img src="https://img.shields.io/badge/OPENCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV" />
-        <img src="https://img.shields.io/badge/NUMPY-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy" /><br/>
-        <img src="https://img.shields.io/badge/PANDAS-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas" />
+        <img src="https://img.shields.io/badge/LLMs-7C3AED?style=for-the-badge" alt="LLMs" />
+        <img src="https://img.shields.io/badge/RAG-0284C7?style=for-the-badge" alt="RAG" />
+        <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logoColor=2DD4BF" alt="LangChain" /><br/>
+        <img src="https://img.shields.io/badge/Vector_Databases-4338CA?style=for-the-badge" alt="Vector Databases" />
+        <img src="https://img.shields.io/badge/Prompt_Engineering-B91C1C?style=for-the-badge" alt="Prompt Engineering" /><br/>
+        <img src="https://img.shields.io/badge/Agentic_AI-0F766E?style=for-the-badge" alt="Agentic AI" />
       </p>
 
       <h4><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" width="16" valign="middle"/> Tools &amp; Platforms</h4>
