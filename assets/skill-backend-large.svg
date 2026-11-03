@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 460 365" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="card-bg-backend" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c15"/>
+      <stop offset="50%" stop-color="#0a101f"/>
+      <stop offset="100%" stop-color="#0d1527"/>
+    </linearGradient>
+    <linearGradient id="border-backend" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.6"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.2"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.4"/>
+    </linearGradient>
+    <linearGradient id="bar-grad-backend" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#34d399"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Body -->
+  <rect width="460" height="365" rx="14" fill="url(#card-bg-backend)"/>
+  <rect x="1" y="1" width="458" height="363" rx="13" stroke="url(#border-backend)" stroke-width="1.4" fill="none"/>
+
+  <!-- Header -->
+  <g transform="translate(22, 20)">
+    <rect width="36" height="36" rx="10" fill="#34d399" fill-opacity="0.15" stroke="#34d399" stroke-width="1" stroke-opacity="0.5"/>
+    <text x="18" y="24" text-anchor="middle" font-family="sans-serif" font-size="18">⚙️</text>
+    
+    <text x="48" y="18" font-family="system-ui, -apple-system, sans-serif" font-size="16" font-weight="800" fill="#f8fafc">Backend Development</text>
+    <text x="48" y="34" font-family="'JetBrains Mono', monospace" font-size="10.5" font-weight="600" fill="#94a3b8">// SERVER ARCHITECTURE &amp; PROTOCOLS</text>
+    
+    <circle cx="415" cy="18" r="4" fill="#34d399"/>
+  </g>
+  <line x1="22" y1="68" x2="438" y2="68" stroke="#1e293b" stroke-width="1"/>
+
+  <!-- Items List Container -->
+  <g transform="translate(22, 80)">
+    <g transform="translate(0, 0)">
+      <rect width="416" height="36" rx="7" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#34d399"/>
+      <text x="24" y="16" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f1f5f9">Node.js &amp; Express.js</text>
+      <text x="24" y="29" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#94a3b8">High-Throughput APIs, Event-Driven Architecture</text>
+      
+      <!-- Mini Progress / Capability Meter -->
+      <rect x="310" y="14" width="90" height="7" rx="3.5" fill="#162032"/>
+      <rect x="310" y="14" width="78" height="7" rx="3.5" fill="url(#bar-grad-backend)"/>
+    </g>
+    <g transform="translate(0, 40)">
+      <rect width="416" height="36" rx="7" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#34d399"/>
+      <text x="24" y="16" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f1f5f9">FastAPI</text>
+      <text x="24" y="29" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#94a3b8">High-Performance Asynchronous Python Microservices</text>
+      
+      <!-- Mini Progress / Capability Meter -->
+      <rect x="310" y="14" width="90" height="7" rx="3.5" fill="#162032"/>
+      <rect x="310" y="14" width="74" height="7" rx="3.5" fill="url(#bar-grad-backend)"/>
+    </g>
+    <g transform="translate(0, 80)">
+      <rect width="416" height="36" rx="7" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#34d399"/>
+      <text x="24" y="16" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f1f5f9">RESTful API Design</text>
+      <text x="24" y="29" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#94a3b8">Stateless Endpoints, Versioning, Idempotency</text>
+      
+      <!-- Mini Progress / Capability Meter -->
+      <rect x="310" y="14" width="90" height="7" rx="3.5" fill="#162032"/>
+      <rect x="310" y="14" width="79" height="7" rx="3.5" fill="url(#bar-grad-backend)"/>
+    </g>
+    <g transform="translate(0, 120)">
+      <rect width="416" height="36" rx="7" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#34d399"/>
+      <text x="24" y="16" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f1f5f9">WebSockets</text>
+      <text x="24" y="29" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#94a3b8">Bidirectional Real-Time Communication Channels</text>
+      
+      <!-- Mini Progress / Capability Meter -->
+      <rect x="310" y="14" width="90" height="7" rx="3.5" fill="#162032"/>
+      <rect x="310" y="14" width="71" height="7" rx="3.5" fill="url(#bar-grad-backend)"/>
+    </g>
+    <g transform="translate(0, 160)">
+      <rect width="416" height="36" rx="7" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#34d399"/>
+      <text x="24" y="16" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f1f5f9">Authentication &amp; Security</text>
+      <text x="24" y="29" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#94a3b8">JWT, RBAC, Password Hashing, Session Management</text>
+      
+      <!-- Mini Progress / Capability Meter -->
+      <rect x="310" y="14" width="90" height="7" rx="3.5" fill="#162032"/>
+      <rect x="310" y="14" width="76" height="7" rx="3.5" fill="url(#bar-grad-backend)"/>
+    </g>
+    <g transform="translate(0, 200)">
+      <rect width="416" height="36" rx="7" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#34d399"/>
+      <text x="24" y="16" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f1f5f9">EJS Templating</text>
+      <text x="24" y="29" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#94a3b8">Server-Side Rendering, Dynamic View Compilation</text>
+      
+      <!-- Mini Progress / Capability Meter -->
+      <rect x="310" y="14" width="90" height="7" rx="3.5" fill="#162032"/>
+      <rect x="310" y="14" width="69" height="7" rx="3.5" fill="url(#bar-grad-backend)"/>
+    </g>
+    <g transform="translate(0, 240)">
+      <rect width="416" height="36" rx="7" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="14" cy="18" r="3" fill="#34d399"/>
+      <text x="24" y="16" font-family="system-ui, sans-serif" font-size="12" font-weight="700" fill="#f1f5f9">Payment Integrations</text>
+      <text x="24" y="29" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#94a3b8">Stripe &amp; Razorpay Checkout Workflows, Webhooks</text>
+      
+      <!-- Mini Progress / Capability Meter -->
+      <rect x="310" y="14" width="90" height="7" rx="3.5" fill="#162032"/>
+      <rect x="310" y="14" width="73" height="7" rx="3.5" fill="url(#bar-grad-backend)"/>
+    </g>
+  </g>
+</svg>
