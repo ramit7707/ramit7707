@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 440 85" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="p_bg_banner_sfs" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c15"/>
+      <stop offset="100%" stop-color="#0e172a"/>
+    </linearGradient>
+    <linearGradient id="p_border_banner_sfs" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#f59e0b" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="440" height="85" rx="10" fill="url(#p_bg_banner_sfs)"/>
+  <rect x="1" y="1" width="438" height="83" rx="9" stroke="url(#p_border_banner_sfs)" stroke-width="1.2" fill="none"/>
+
+  <g transform="translate(18, 16)">
+    <rect width="68" height="20" rx="10" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="34" y="14" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="9" font-weight="700" fill="#f59e0b">KERNEL</text>
+
+    <text x="78" y="14" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#64748b">// Unix Virtual Disk &amp; Inodes</text>
+    
+    <text x="0" y="46" font-family="system-ui, -apple-system, sans-serif" font-size="15" font-weight="800" fill="#f8fafc">Simple File System Simulator</text>
+    <circle cx="395" cy="14" r="3.5" fill="#f59e0b"/>
+  </g>
+</svg>

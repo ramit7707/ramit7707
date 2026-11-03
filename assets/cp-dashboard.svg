@@ -1,0 +1,152 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 310" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="cp-bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c15"/>
+      <stop offset="50%" stop-color="#0b1222"/>
+      <stop offset="100%" stop-color="#0d172a"/>
+    </linearGradient>
+    <linearGradient id="cp-border" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35"/>
+      <stop offset="50%" stop-color="#818cf8" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#34d399" stop-opacity="0.35"/>
+    </linearGradient>
+    
+    <!-- Platform Gradients -->
+    <linearGradient id="grad-leetcode" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFA116" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#FF6B00" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="grad-codeforces" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#1d4ed8" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="grad-codechef" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#a855f7" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#7e22ce" stop-opacity="0.05"/>
+    </linearGradient>
+    <linearGradient id="grad-atcoder" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" stop-opacity="0.15"/>
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.05"/>
+    </linearGradient>
+    
+    <!-- Master Solved Pill Gradient -->
+    <linearGradient id="grad-solved" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#059669"/>
+      <stop offset="100%" stop-color="#10b981"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Container Box -->
+  <rect width="940" height="310" rx="16" fill="url(#cp-bg)"/>
+  <rect x="1" y="1" width="938" height="308" rx="15" stroke="url(#cp-border)" stroke-width="1.5" fill="none"/>
+
+  <!-- Header Section -->
+  <g transform="translate(32, 28)">
+    <circle cx="8" cy="12" r="4" fill="#10b981"/>
+    <text x="20" y="16" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="700" fill="#38bdf8" letter-spacing="1.5">ALGORITHMIC MASTERY &amp; CONTEST METRICS</text>
+    <text x="0" y="46" font-family="system-ui, -apple-system, sans-serif" font-size="24" font-weight="800" fill="#f8fafc">Competitive Programming Dashboard</text>
+    <text x="0" y="68" font-family="system-ui, sans-serif" font-size="13" font-weight="400" fill="#94a3b8">Active competitor across global platforms with rigorous algorithmic problem-solving depth</text>
+  </g>
+
+  <!-- Total Problems Solved Badge (Top Right) -->
+  <g transform="translate(670, 26)">
+    <rect width="238" height="52" rx="12" fill="#064e3b" fill-opacity="0.4" stroke="#10b981" stroke-width="1.2"/>
+    <text x="16" y="22" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="600" fill="#34d399" letter-spacing="0.8">TOTAL SOLVED</text>
+    <text x="16" y="43" font-family="system-ui, sans-serif" font-size="22" font-weight="800" fill="#ffffff">2,000+ <tspan font-size="12" font-weight="500" fill="#6ee7b7">Problems</tspan></text>
+    <!-- Sparkle / Star icon -->
+    <polygon points="214,16 217,23 224,24 219,29 220,36 214,32 208,36 209,29 204,24 211,23" fill="#34d399"/>
+  </g>
+
+  <!-- 4 Platform Cards -->
+  <!-- 1. LeetCode Card -->
+  <g transform="translate(32, 115)">
+    <rect width="205" height="165" rx="12" fill="url(#grad-leetcode)" stroke="#f59e0b" stroke-width="1" stroke-opacity="0.4"/>
+    
+    <!-- Platform Icon & Tag -->
+    <rect x="16" y="16" width="32" height="32" rx="8" fill="#f59e0b" fill-opacity="0.15"/>
+    <text x="24" y="38" font-family="sans-serif" font-size="18" font-weight="bold" fill="#FFA116">LC</text>
+    
+    <rect x="112" y="18" width="77" height="20" rx="10" fill="#f59e0b" fill-opacity="0.15" stroke="#f59e0b" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="150" y="32" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#FFA116" text-anchor="middle">KNIGHT</text>
+
+    <!-- Platform Name -->
+    <text x="16" y="68" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#cbd5e1">LeetCode</text>
+    
+    <!-- Rating Value -->
+    <text x="16" y="108" font-family="system-ui, sans-serif" font-size="34" font-weight="800" fill="#f8fafc">1871</text>
+
+    <!-- Handle & Details -->
+    <text x="16" y="132" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="500" fill="#94a3b8">@ramit018</text>
+    <line x1="16" y1="143" x2="189" y2="143" stroke="#1e293b" stroke-width="1"/>
+    <text x="16" y="156" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#64748b">TOP ~6% GLOBALLY</text>
+  </g>
+
+  <!-- 2. Codeforces Card -->
+  <g transform="translate(257, 115)">
+    <rect width="205" height="165" rx="12" fill="url(#grad-codeforces)" stroke="#3b82f6" stroke-width="1" stroke-opacity="0.4"/>
+    
+    <!-- Platform Icon & Tag -->
+    <rect x="16" y="16" width="32" height="32" rx="8" fill="#3b82f6" fill-opacity="0.15"/>
+    <text x="24" y="38" font-family="sans-serif" font-size="18" font-weight="bold" fill="#38bdf8">CF</text>
+    
+    <rect x="122" y="18" width="67" height="20" rx="10" fill="#3b82f6" fill-opacity="0.15" stroke="#3b82f6" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="155" y="32" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#38bdf8" text-anchor="middle">PUPIL</text>
+
+    <!-- Platform Name -->
+    <text x="16" y="68" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#cbd5e1">Codeforces</text>
+    
+    <!-- Rating Value -->
+    <text x="16" y="108" font-family="system-ui, sans-serif" font-size="34" font-weight="800" fill="#f8fafc">1357</text>
+
+    <!-- Handle & Details -->
+    <text x="16" y="132" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="500" fill="#94a3b8">@ramit018</text>
+    <line x1="16" y1="143" x2="189" y2="143" stroke="#1e293b" stroke-width="1"/>
+    <text x="16" y="156" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#64748b">ACTIVE CONTESTANT</text>
+  </g>
+
+  <!-- 3. CodeChef Card -->
+  <g transform="translate(482, 115)">
+    <rect width="205" height="165" rx="12" fill="url(#grad-codechef)" stroke="#a855f7" stroke-width="1" stroke-opacity="0.4"/>
+    
+    <!-- Platform Icon & Tag -->
+    <rect x="16" y="16" width="32" height="32" rx="8" fill="#a855f7" fill-opacity="0.15"/>
+    <text x="24" y="38" font-family="sans-serif" font-size="18" font-weight="bold" fill="#c084fc">CC</text>
+    
+    <rect x="116" y="18" width="73" height="20" rx="10" fill="#a855f7" fill-opacity="0.15" stroke="#a855f7" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="152" y="32" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#c084fc" text-anchor="middle">3-STAR ★★★</text>
+
+    <!-- Platform Name -->
+    <text x="16" y="68" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#cbd5e1">CodeChef</text>
+    
+    <!-- Rating Value -->
+    <text x="16" y="108" font-family="system-ui, sans-serif" font-size="34" font-weight="800" fill="#f8fafc">1582</text>
+
+    <!-- Handle & Details -->
+    <text x="16" y="132" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="500" fill="#94a3b8">@ramit018</text>
+    <line x1="16" y1="143" x2="189" y2="143" stroke="#1e293b" stroke-width="1"/>
+    <text x="16" y="156" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#64748b">DIVISION 2 RATED</text>
+  </g>
+
+  <!-- 4. AtCoder Card -->
+  <g transform="translate(707, 115)">
+    <rect width="201" height="165" rx="12" fill="url(#grad-atcoder)" stroke="#10b981" stroke-width="1" stroke-opacity="0.4"/>
+    
+    <!-- Platform Icon & Tag -->
+    <rect x="16" y="16" width="32" height="32" rx="8" fill="#10b981" fill-opacity="0.15"/>
+    <text x="24" y="38" font-family="sans-serif" font-size="18" font-weight="bold" fill="#34d399">AC</text>
+    
+    <rect x="116" y="18" width="69" height="20" rx="10" fill="#10b981" fill-opacity="0.15" stroke="#10b981" stroke-width="0.8" stroke-opacity="0.5"/>
+    <text x="150" y="32" font-family="'JetBrains Mono', monospace" font-size="10" font-weight="700" fill="#34d399" text-anchor="middle">BROWN</text>
+
+    <!-- Platform Name -->
+    <text x="16" y="68" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#cbd5e1">AtCoder</text>
+    
+    <!-- Rating Value -->
+    <text x="16" y="108" font-family="system-ui, sans-serif" font-size="34" font-weight="800" fill="#f8fafc">836</text>
+
+    <!-- Handle & Details -->
+    <text x="16" y="132" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="500" fill="#94a3b8">@SR_18</text>
+    <line x1="16" y1="143" x2="185" y2="143" stroke="#1e293b" stroke-width="1"/>
+    <text x="16" y="156" font-family="'JetBrains Mono', monospace" font-size="9.5" fill="#64748b">REGULAR ATCODER ABC</text>
+  </g>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 450 210" width="100%" height="100%" fill="none">
+  <defs>
+    <linearGradient id="card-bg-lang" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#080c15"/>
+      <stop offset="100%" stop-color="#0d1424"/>
+    </linearGradient>
+    <linearGradient id="border-grad-lang" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#1e293b" stop-opacity="0.3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Card Body -->
+  <rect width="450" height="210" rx="12" fill="url(#card-bg-lang)"/>
+  <rect x="1" y="1" width="448" height="208" rx="11" stroke="url(#border-grad-lang)" stroke-width="1.2" fill="none"/>
+
+  <!-- Category Title Header -->
+  <g transform="translate(20, 20)">
+    <rect width="28" height="28" rx="7" fill="#38bdf8" fill-opacity="0.15" stroke="#38bdf8" stroke-width="0.8" stroke-opacity="0.4"/>
+    <text x="14" y="19" text-anchor="middle" font-family="sans-serif" font-size="14">💻</text>
+    <text x="38" y="19" font-family="system-ui, -apple-system, sans-serif" font-size="14" font-weight="700" fill="#f8fafc">Programming Languages</text>
+    <circle cx="405" cy="14" r="3.5" fill="#38bdf8"/>
+  </g>
+  <line x1="20" y1="56" x2="430" y2="56" stroke="#1e293b" stroke-width="0.8"/>
+
+  <!-- Skill Badges Container -->
+  <g transform="translate(20, 68)">
+    <g transform="translate(0, 0)">
+      <rect width="48" height="24" rx="6" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="10" cy="12" r="2.8" fill="#38bdf8"/>
+      <text x="17" y="16" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1">C++</text>
+    </g>
+    <g transform="translate(56, 0)">
+      <rect width="33" height="24" rx="6" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="10" cy="12" r="2.8" fill="#38bdf8"/>
+      <text x="17" y="16" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1">C</text>
+    </g>
+    <g transform="translate(97, 0)">
+      <rect width="70" height="24" rx="6" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="10" cy="12" r="2.8" fill="#38bdf8"/>
+      <text x="17" y="16" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1">Python</text>
+    </g>
+    <g transform="translate(175, 0)">
+      <rect width="100" height="24" rx="6" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="10" cy="12" r="2.8" fill="#38bdf8"/>
+      <text x="17" y="16" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1">JavaScript</text>
+    </g>
+    <g transform="translate(283, 0)">
+      <rect width="55" height="24" rx="6" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="10" cy="12" r="2.8" fill="#38bdf8"/>
+      <text x="17" y="16" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1">Java</text>
+    </g>
+    <g transform="translate(0, 32)">
+      <rect width="70" height="24" rx="6" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="10" cy="12" r="2.8" fill="#38bdf8"/>
+      <text x="17" y="16" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1">MATLAB</text>
+    </g>
+    <g transform="translate(78, 32)">
+      <rect width="48" height="24" rx="6" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="10" cy="12" r="2.8" fill="#38bdf8"/>
+      <text x="17" y="16" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1">SQL</text>
+    </g>
+    <g transform="translate(134, 32)">
+      <rect width="137" height="24" rx="6" fill="#0d1527" stroke="#1e293b" stroke-width="0.8"/>
+      <circle cx="10" cy="12" r="2.8" fill="#38bdf8"/>
+      <text x="17" y="16" font-family="system-ui, -apple-system, sans-serif" font-size="11" font-weight="500" fill="#cbd5e1">Shell Scripting</text>
+    </g>
+  </g>
+</svg>
