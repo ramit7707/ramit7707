@@ -47,7 +47,7 @@
   </g>
 
   <!-- Subtitle Tagline -->
-  <text x="480" y="145" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="3.5">COMPETITIVE PROGRAMMER  •  B.TECH ICT  •  OPEN TO INTERNSHIPS</text>
+  <text x="480" y="145" text-anchor="middle" font-family="'JetBrains Mono', monospace" font-size="11" font-weight="600" fill="#94a3b8" letter-spacing="3.5">COMPETITIVE PROGRAMMER  •  B.TECH ICT</text>
 
   <!-- 4 Badges Row -->
   <g transform="translate(195, 162)">
